@@ -26,11 +26,19 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Steps Instalation Dev
 
+#1 Clone this repository
+
+#2 Instal dependecies
 ```bash
 $ npm install
 ```
+
+#3 Create `.env` archive, based in `.env.template.`
+
+#4 Eject migration in prisma `npx prisma migrate dev`
+
 
 ## Running the app
 
