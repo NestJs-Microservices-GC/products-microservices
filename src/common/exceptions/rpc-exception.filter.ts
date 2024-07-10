@@ -15,7 +15,7 @@ export class ExceptionFilter implements ExceptionFilter {
       status: 400,
       message: rcpError.message,
     };
-    console.log('laconcahd e tgu hermana');
+
     if (
       typeof rcpError === 'object' &&
       'status' in rcpError &&
